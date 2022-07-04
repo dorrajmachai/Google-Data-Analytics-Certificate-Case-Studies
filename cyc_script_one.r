@@ -116,8 +116,7 @@ cyclistic %>%
           axis.ticks.x = element_blank(),
           axis.text.x = element_blank())
 
- # for this one, I want to include percentages inside the center of the bars
- # and for the months to go in order
+ # for this one, I want the months to go in order
  # of the csv files (May, Jun, ..., March, April, etc.)
 
  cyclistic %>%
@@ -192,8 +191,5 @@ cyclistic %>%
 
 # cyclistic <- cyclistic %>%
     # lubridate::parse_date_time(ended_at, roll = TRUE)
-
-# these lines are just taking too long to run and I want to finish my project.
-# I'll try to look at this again at a later time.
 
 lapply(packages, citation)
